@@ -22,5 +22,6 @@ def send_audio_to_telegram():
     audio.close()
 
 while True:
-    record_audio(10)
+    # Тут установить время на которое надо поставить запись
+    record_audio(10) 
     send_audio_to_telegram()
